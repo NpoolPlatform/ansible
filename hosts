@@ -1,0 +1,5 @@
+[all:vars]
+ansible_ssh_user = root
+
+[mysql_servers]
+127.0.0.1 ansible_ssh_pass=pwd
